@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #FFF;
+  color: #232323;
+}
+
+p {
+  margin: 0;
+  line-height: 1.7em;
+}
+
+img {
+  border: 0;
+}
+
+.center {
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+}
