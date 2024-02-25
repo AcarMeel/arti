@@ -5,13 +5,28 @@
     <title>Arti | Summer</title>
     <meta name="description" content="website description" />
     <meta name="keywords" content="website keywords, website keywords" />
-    <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style/style.css" />
     <link rel="stylesheet" href="style/custom.css">
     <link rel="stylesheet" href="style/example.css">
 </head>
 
 <body>
+    <div id="app-mobile-menu">
+        <nav id="menubar">
+            <button id="menu-mobile" onclick="closeMenu()">
+                <i class="fa-solid fa-close"></i>
+            </button>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li class="selected"><a href="summer.html">Summer</a></li>
+                <li><a href="school.html">School</a></li>
+                <li><a href="girls.html">Girls</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
     <div class="progress progress-infinite">
         <div class="progress-bar">
         </div>
@@ -23,7 +38,7 @@
                     <img src="img/logo-2.svg" alt="logo">
                 </a>
                 <nav id="menubar">
-                    <button id="menu-mobile">
+                    <button id="menu-mobile" onclick="openMenu()">
                         <i class="fa-solid fa-bars"></i>
                     </button>
                     <ul id="menu">
@@ -478,6 +493,7 @@
             </div>
         </footer>
     </div>
+    <script src="js/app-menu.js"></script>
 </body>
 
 </html>

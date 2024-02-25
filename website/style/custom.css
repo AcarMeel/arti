@@ -318,6 +318,10 @@ footer div {
     background-color: var(--dark-mint);
 }
 
+#app-mobile-menu {
+    display: none;
+}
+
 .copy-text {
     max-width: 400px;
     width: 100%;
@@ -571,6 +575,44 @@ footer div {
 
     #menu {
         display: none;
+    }
+
+    #app-mobile-menu.is-active {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: var(--red);
+        height: 100vh;
+        z-index: 999;
+    }
+
+    #app-mobile-menu.is-active #menubar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #app-mobile-menu.is-active #menubar #menu-mobile {
+        font-size: 60px;
+        margin-top: 16px;
+    }
+
+    #app-mobile-menu.is-active #menubar #menu {
+        display: flex;
+        flex-direction: column;
+        margin-top: 32px;
+    }
+
+    #app-mobile-menu.is-active #menubar #menu li {
+        margin-bottom: 62px;
+    }
+
+    #app-mobile-menu.is-active #menubar #menu li a {
+        font-size: 32px;
     }
 
     #menu-mobile {
