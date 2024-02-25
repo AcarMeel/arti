@@ -585,7 +585,7 @@ footer div {
         bottom: 0;
         width: 100%;
         background-color: var(--red);
-        height: 100vh;
+        height: 100%;
         z-index: 999;
     }
 
