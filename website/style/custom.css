@@ -32,6 +32,11 @@ iframe {
     border: none;
 }
 
+footer p,
+footer div {
+    margin: 8px 0;
+}
+
 #iframe-girl-school {
     width: 100%;
     max-width: 860px;
