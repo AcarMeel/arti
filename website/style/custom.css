@@ -1,9 +1,6 @@
-/* @import url('https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css'); */
-
 :root {
     --gradient: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     --mint: #DEFFF2;
-    --bg-bear: url(../img/bear-clear-final.jpg);
     --bg-bear-2: url(../img/bear-clear-final-mint.jpg);
     --dark-mint: #0FF4C6;
     --red: #C42348;
@@ -234,7 +231,6 @@ footer div {
 
 .bear-shaking {
     position: absolute;
-    background-image: var(--bg-bear);
     background-repeat: no-repeat;
     background-position: 50% bottom;
     background-size: contain;
